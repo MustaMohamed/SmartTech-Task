@@ -28,11 +28,11 @@
 
     "start:front": "npm start --prefix frontend/app",
     "start:server": "node server/server.js",
-    "start:app": "concurrently \"npm:start:front\" \"npm:start:server\""و
+    "start:app": "concurrently \"npm:start:front\" \"npm:start:server\"",
 
     "install:app":"concurrently \"npm:install:front\" \"npm:install:server\"",
     "install:front": "npm i --prefix frontend/app",
-    "install:server": "npm i",
+    "install:server": "npm i"
   },
   "author": "",
   "license": "ISC"

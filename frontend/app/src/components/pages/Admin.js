@@ -73,6 +73,8 @@ class CardItem extends React.Component {
             .then(res => res.data)
             .then(data => {
               console.log(data);
+              window.location.reload();
+              this.props.history.push('/');
             })
             .catch(err => console.log(err));
         };
