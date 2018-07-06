@@ -25,9 +25,14 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+
     "start:front": "npm start --prefix frontend/app",
     "start:server": "node server/server.js",
-    "start:app": "concurrently \"npm:start:front\" \"npm:start:server\""
+    "start:app": "concurrently \"npm:start:front\" \"npm:start:server\""و
+
+    "install:app":"concurrently \"npm:install:front\" \"npm:install:server\"",
+    "install:front": "npm i --prefix frontend/app",
+    "install:server": "npm i",
   },
   "author": "",
   "license": "ISC"
