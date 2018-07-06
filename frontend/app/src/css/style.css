@@ -1,0 +1,26 @@
+
+.slideElement {
+  margin-left: -150px !important;
+  left: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.slider {
+  position : relative;
+  height : 70vh;
+  overflow : hidden;
+}
+
+.nav-bar {
+  margin-bottom: 60px;
+}
+.navbar-item {
+  max-height: 70px !important;
+}
+
+.navbar-item a {
+  padding: 25px 15px !important;
+}
